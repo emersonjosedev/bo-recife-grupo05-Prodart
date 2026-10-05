@@ -21,10 +21,11 @@ Cada grupo deverá selecionar um **problema real** publicado no **Banco de Oport
 ### Integrantes
 
 | Nome | GitHub |
-|---|---|
-| | |
-| | |
-| | |
+
+Ryan Filipe de Oliveira | emersonjosedev
+Ricardo Ferreira |  ferreirascdb
+Emerson José Souza Vieira |  
+
 
 ---
 
