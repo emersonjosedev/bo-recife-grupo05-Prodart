@@ -12,19 +12,19 @@ Cada grupo deverá selecionar um **problema real** publicado no **Banco de Oport
 
 ## Identificação da equipe
 
-- Turma:
-- Grupo:
-- Nome do projeto:
-- BO escolhido:
-- Link do BO:
+- Turma:  GRA0400102NNA
+- Grupo: 05
+- Nome do projeto: PRODART
+- BO escolhido: Plataforma Digital para Gestão e Promoção do Artesanato de Recife 
+- Link do BO: https://coreto.app.emprel.gov.br/banco-de-bo/plataforma-digital-para-gestao-e-promocao-do-artesanato-de-recife-prod
 
 ### Integrantes
 
 | Nome | GitHub |
 
-Ryan Filipe de Oliveira | emersonjosedev
+Ryan Filipe de Oliveira | Ryan7Filipe
 Ricardo Ferreira |  ferreirascdb
-Emerson José Souza Vieira |  
+Emerson José Souza Vieira |  emersonjosedev
 
 
 ---
