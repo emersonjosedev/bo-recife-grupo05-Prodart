@@ -1,59 +1,40 @@
 # 01 — Problema
 
-> **Objetivo deste documento:** descrever com clareza o problema real escolhido no Banco de Oportunidades (BO) e delimitar qual parte dele será tratada pela equipe.
->
-> **Avaliação:** AV1
->
-> **Como preencher:** substitua as orientações em itálico pelo texto da equipe. Seja específico: evite frases genéricas como "o sistema vai melhorar a vida das pessoas".
-
----
-
 ## BO selecionado
 
-- **Título do BO:**
-- **URL:**
-- **Área temática:**
-- **Órgão/secretaria responsável (se informado):**
+- **Título:** Plataforma Digital para Gestão e Promoção do Artesanato de Recife.
+- **URL:** https://coreto.app.emprel.gov.br/banco-de-bo/plataforma-digital-para-gestao-e-promocao-do-artesanato-de-recife-prod
+- **Área temática:** artesanato, economia criativa e serviços digitais.
+- **Programa relacionado:** Prodarte, vinculado à Secretaria de Trabalho e Qualificação Profissional do Recife, conforme [comunicação da Prefeitura sobre a Fenearte 2026](https://www2.recife.pe.gov.br/noticias/18/05/2026/prodarte-abre-inscricoes-para-selecao-de-expositores-da-fenearte-2026). A equipe ainda precisa conferir o órgão responsável especificamente indicado na página do BO.
 
 ## Descrição do problema
 
-_Explique, com as palavras da equipe, qual é o problema apresentado no BO. Não copie apenas o texto do site: mostre que o grupo compreendeu a situação._
+O Prodarte oferece oportunidades de participação em feiras e eventos para artesãos cadastrados. A Prefeitura divulga inscrições por canais distintos e mantém atendimento presencial. Em chamadas de 2026, havia opções de inscrição pelo site, pelo Instagram e na sede do programa ([São João](https://www2.recife.pe.gov.br/node/300299); [Fenearte](https://www2.recife.pe.gov.br/noticias/18/05/2026/prodarte-abre-inscricoes-para-selecao-de-expositores-da-fenearte-2026)). Isso mostra que o processo tem várias portas de entrada. **Ainda não demonstra**, por si só, perda de inscrições, falta de transparência ou uso de planilhas internas. Esses pontos são hipóteses a investigar com a gestão e os artesãos.
+
+O desafio escolhido é reunir, em uma experiência coerente, oportunidades para artesãos e informações das feiras para o público, com dados atualizados e decisões de seleção explicáveis. O [recadastramento divulgado em 2025](https://www2.recife.pe.gov.br/noticias/07/10/2025/prefeitura-do-recife-faz-recadastramento-das-artesas-e-dos-artesaos-inscritos-no) teve entre seus objetivos atualizar a base de dados e apoiar o planejamento do programa, o que reforça a relevância de qualidade cadastral.
 
 ## Delimitação
 
-_O problema do BO costuma ser amplo. Qual recorte a equipe vai atacar? O que fica de fora?_
-
-- **Parte do problema que será tratada:**
-- **Parte do problema que NÃO será tratada:**
+- **Parte tratada:** consulta de feiras e oportunidades, cadastro básico de demonstração, candidatura com protocolo local e visualização de uma hipótese de rodízio. Na solução futura, cadastro único, editais versionados e informações confirmadas na origem.
+- **Fora do protótipo atual:** inscrição oficial, autenticação, banco de dados compartilhado, avaliação documental, seleção real, recurso, pagamento, gestão completa de barracas e integração com sistemas da Prefeitura.
 
 ## Quem é afetado
 
-_Identifique os grupos de pessoas ou instituições afetados pelo problema (cidadãos, servidores, empresas, bairros específicos etc.)._
-
-| Grupo afetado | Como é afetado? |
+| Grupo | Relação com o problema |
 |---|---|
-| | |
+| Artesãos e empreendedores criativos | Precisam localizar oportunidades, entender regras e acompanhar candidaturas. |
+| Equipe do Prodarte | Publica editais, confere inscrições e organiza a participação nos eventos. |
+| Moradores e visitantes | Precisam encontrar local, data, horário e artesãos das feiras em informação confiável. |
+| Gestão municipal | Precisa de dados consistentes para planejar, prestar contas e melhorar o serviço. |
 
 ## Onde acontece
 
-_Em que local, território, serviço ou processo o problema ocorre?_
+Nos processos de cadastro, divulgação e seleção de oportunidades do Prodarte e na comunicação das feiras de artesanato no Recife. O projeto não se limita a um bairro.
 
-## Importância
+## Importância e consequências
 
-_Por que vale a pena resolver este problema? Qual a relevância para a cidade e para as pessoas?_
-
-## Consequências
-
-_O que acontece se o problema continuar sem solução?_
-
--
--
--
+O programa busca fomentar o artesanato e ampliar oportunidades de comercialização ([descrição oficial do Prodarte](https://www2.recife.pe.gov.br/node/11054)). Se informações ficarem dispersas ou desatualizadas, artesãos podem ter dificuldade para acompanhar oportunidades e o público pode planejar visitas com base em dados incorretos. **A frequência e o impacto desses riscos ainda precisam ser medidos.**
 
 ## Pergunta central
 
-> A pergunta central orienta todo o projeto. Ela deve ser específica e indicar **quem** será beneficiado e **o que** se pretende melhorar.
->
-> **Exemplo de estrutura (não é resposta):** "Como poderíamos _[ação]_ para _[público]_ de modo que _[resultado esperado]_?"
-
-Como poderíamos _________________________________________________?
+**Como poderíamos facilitar o acompanhamento de oportunidades pelos artesãos do Prodarte e a consulta confiável às feiras pelo público, mantendo regras e atualizações verificáveis?**

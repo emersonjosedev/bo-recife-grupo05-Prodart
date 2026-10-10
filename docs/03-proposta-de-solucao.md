@@ -1,69 +1,48 @@
-# 03 — Proposta de Solução
+# 03 — Proposta de solução
 
-> **Objetivo deste documento:** apresentar a solução tecnológica proposta pela equipe e mostrar como ela se relaciona com o problema e as evidências levantadas.
->
-> **Avaliação:** AV1
->
-> Cada funcionalidade deve estar ligada a uma parte do problema descrito em [01-problema.md](01-problema.md) e às evidências de [02-investigacao-e-evidencias.md](02-investigacao-e-evidencias.md).
+## Nome e resumo
 
----
+**PRODART Recife.** Plataforma proposta com um portal para o artesão consultar oportunidades e acompanhar candidaturas e um guia público para localizar feiras. O protótipo atual demonstra esses dois caminhos com dados fictícios. A solução operacional depende de validação com o Prodarte e seus usuários.
 
-## Nome da solução
+## Público e usuários
 
-## Resumo
-
-_Explique a solução em até 5 linhas: o que é, para quem é e qual problema resolve._
-
-## Público-alvo
-
-_Quem será beneficiado pela solução?_
-
-## Usuários
-
-_Quem vai utilizar o sistema diretamente? (Pode ser diferente do público-alvo.)_
-
-| Tipo de usuário | O que faz no sistema? |
+| Usuário | Ação prevista |
 |---|---|
-| | |
+| Artesão | Atualiza cadastro, consulta edital, candidata-se e acompanha protocolo e resultado. |
+| Gestor e equipe de campo | Publicam edital, conferem dados, registram decisão, escala e presença. |
+| Morador ou visitante | Busca feira e consulta local, data, categorias e perfis autorizados. |
 
 ## Proposta de valor
 
-_Por que a solução é útil? O que ela melhora em relação à situação atual?_
+Uma fonte de dados compartilhada entre oportunidades e guia público pode reduzir divergências e tornar regras e atualizações rastreáveis. O benefício real será avaliado por testes e indicadores; ainda não foi comprovado.
 
-## Fluxo principal
-
-_Descreva o caminho principal que o usuário percorre para obter o resultado esperado._
-
-Representação genérica (adapte para a solução da equipe):
+## Fluxos principais
 
 ```text
-Usuário
-   ↓
-Interface
-   ↓
-Sistema
-   ↓
-Processamento
-   ↓
-Resultado
+Artesão → consulta oportunidade e edital → envia candidatura → recebe protocolo
+        → acompanha situação → consulta decisão e recurso (futuro)
+
+Equipe → publica edital → confere inscrições → registra decisão e escala
+       → confirma informações da feira → alimenta o guia (futuro)
+
+Público → busca feira → vê informações e horário da última atualização
 ```
 
 ## Funcionalidades essenciais
 
-_Funcionalidades sem as quais a solução não resolve o problema. Prioridade: Alta, Média ou Baixa._
+| ID | Funcionalidade | Problema relacionado | Prioridade | Situação |
+|---|---|---|---|---|
+| F01 | Busca e filtro de feiras com detalhes | Descoberta das feiras | Alta | Protótipo funcional com dados fictícios |
+| F02 | Cadastro básico e consentimento de perfil público | Identificação e divulgação autorizada | Alta | Protótipo local |
+| F03 | Consulta de oportunidades e candidatura com protocolo | Acompanhamento da participação | Alta | Protótipo local |
+| F04 | Publicação de edital e critérios versionados | Clareza das regras | Alta | Proposta, não implementada |
+| F05 | Gestão de decisões, recurso e escala auditável | Explicação dos resultados | Média | Proposta, não implementada |
+| F06 | Confirmação operacional das feiras | Confiabilidade do guia | Média | Proposta, não implementada |
 
-| ID | Funcionalidade | Problema que ajuda a resolver | Prioridade |
-|---|---|---|---|
-| F01 | | | Alta |
-| F02 | | | |
-| F03 | | | |
+## Diferencial e limites
+
+A proposta relaciona o fluxo do artesão ao guia público por meio de dados confirmados, com protocolo e versão de edital. Os canais oficiais atuais continuam válidos. O algoritmo de pontuação exibido no protótipo é **apenas exemplo para debate**; não representa regra do Prodarte e não decide vagas reais.
 
 ## Funcionalidades futuras
 
-_Funcionalidades desejáveis, mas que não são essenciais neste momento._
-
--
-
-## Diferencial
-
-_O que diferencia esta proposta das soluções existentes pesquisadas?_
+Autenticação e perfis de acesso, análise de recursos, atendimento assistido, confirmação de presença e barraca, auditoria, indicadores e integração institucional.
