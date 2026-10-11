@@ -67,9 +67,7 @@ desktop.ini
 *.log
 logs/
 
-# ==========================================
-# Claude / assistentes de IA (não versionar)
-# ==========================================
+
 .claude/
 CLAUDE.md
 CLAUDE.local.md
