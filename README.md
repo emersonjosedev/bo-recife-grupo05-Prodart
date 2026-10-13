@@ -25,7 +25,7 @@ Cada grupo deverá selecionar um **problema real** publicado no **Banco de Oport
 
 | Nome | GitHub |
 
-Ryan Filipe de Oliveira | Ryan7Filipe 
+ | Ryan7Filipe 
 
 Ricardo Ferreira |  ferreirascdb
 
